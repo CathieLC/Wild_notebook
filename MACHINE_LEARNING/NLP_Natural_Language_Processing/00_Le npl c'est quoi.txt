@@ -1,0 +1,13 @@
+DEFINITIONS :
+
+preprocessing = nettoyage du texte et action de traitement
+
+tokenizing = découpage en token
+
+tokens = mots, ponctuation, phrases entières... tout dépend de notre objectif de NLP
+
+stemming = racinisation, cad prends la racine des mots en les tronquants.
+
+lemmatizing = comme le stemming mais avec des règles grammaticales. En fonction des situations l'un peut $etre plus pertinant que l'autre.
+Le lemmatizing permet de conserver un lemma, qu'on pourrait traduire par racine, qui est plus proche du vrai sens du mot. Par exemple, le lemma de did devrait être do, celui de am devrait être be. Il ne suffit donc pas de couper les mots, mais de retrouver son origine. Un lemmatizer s'appuie donc sur le travail de linguistes pour créer les règles. Heureusement pour nous, il existe déjà des lemmatizers bien paramétrés.
+
