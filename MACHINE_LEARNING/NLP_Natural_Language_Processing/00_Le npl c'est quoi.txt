@@ -11,3 +11,25 @@ stemming = racinisation, cad prends la racine des mots en les tronquants.
 lemmatizing = comme le stemming mais avec des règles grammaticales. En fonction des situations l'un peut $etre plus pertinant que l'autre.
 Le lemmatizing permet de conserver un lemma, qu'on pourrait traduire par racine, qui est plus proche du vrai sens du mot. Par exemple, le lemma de did devrait être do, celui de am devrait être be. Il ne suffit donc pas de couper les mots, mais de retrouver son origine. Un lemmatizer s'appuie donc sur le travail de linguistes pour créer les règles. Heureusement pour nous, il existe déjà des lemmatizers bien paramétrés.
 
+
+Sentiment analysis = dit aussi opinion mining, est l'analyse des sentiments à partir de grandes quantités de données textuelles.
+Un sous-domaine du text mining, étude des commentaires par exemples pour observer un accueil positif ou négatif à une publicité.
+**c'est l'utilisation d'un algorithme de classification (donc de Machine Learning supervisé), afin de classer automatiquement des textes en 2 catégories ou plus.
+Un usage très commun est le moteur anti-spam de votre boîte mail. L'algorithme s'entraine sur chaque nouveau mail quand on clique sur le bouton "ceci est un spam".
+Et sait reconnaitre les spams par la suite.
+
+
+Bag of Words : comme pour les tokens, un bag of words compte le nombre d'occurrences d'un mot ou d'un groupe de mots.
+On réalise un Bag of Words grâce à scikit-learn
+
+TF-IDF (term frequency–inverse document frequency) : le but est de compter le nombre d'occurrences d'un mot dans une phrase,
+et de la comparer au nombre d'occurrences dans le corpus de texte en entier.
+Mais pourquoi fait-on cela ?
+Le but est d'obtenir de nombreuses colonnes numériques plutôt qu'une seule colonne de texte. En effet, les algorithmes de classification ne savent interpréter que les colonnes numériques.
+
+Sur un grand nombre de textes, cela va générer énormément de colonnes.
+Un DataFrame pandas risque de prendre beaucoup de place en mémoire, et d'occasionner des lenteurs et des baisses de performance.
+Nous nous apercevons que plus le texte est grand, plus il a de 0 dans les cellules.
+Pour résoudre ce problème, nous utiliserons des matrices creuses (sparse matrix). Les matrices creuses allègent considérablement la mémoire nécessaire.
+En revanche, elles ne sont pas "visibles" sous forme de tableau. Un ordinateur sait s'y retrouver, mais pas nous. Nous devrons donc travailler sans la partie visuelle.
+
