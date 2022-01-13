@@ -30,7 +30,7 @@ def main():
 
 
     with st.sidebar:
-        st.image('assets/hot_wheels.png', width=300)
+        st.image('hot_wheels.png', width=300)
         page = st.selectbox("Choose a page", tuple(pages.keys()))
 
 
@@ -70,7 +70,7 @@ def Accueil():
 
     col1, col2, col3 = st.columns(3)
     with col2:
-        st.image('assets/old_car.png', width=300)
+        st.image('old_car.png', width=300)
     
       
     
@@ -96,7 +96,7 @@ def premiere_analyse():
 
     col1, col2, col3 = st.columns(3)
     with col2:
-        st.image('assets/data_analysis.png', width=200)
+        st.image('data_analysis.png', width=200)
     
     
     #texte explicatif en html    
