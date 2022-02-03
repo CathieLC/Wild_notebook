@@ -1,0 +1,9 @@
+
+{
+"cours" : "NoSQL",
+"compétences" : ["installation", "collection", "requête", "théorie"],
+"métier" : {
+  "intitulé" : "Data Analyst",
+  "domaine" : "Informatique"
+  }
+}
