@@ -1,5 +1,5 @@
-##**Partie 1**  
-####Télécharger le dump sql et l'importer sur une base MySQL :  
+## **Partie 1**  
+#### Télécharger le dump sql et l'importer sur une base MySQL :  
     - Fichier : DataEngineer2022_base_no_update.sql
     - Outil de BDD : Dbeaver 
 
