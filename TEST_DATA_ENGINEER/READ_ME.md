@@ -6,7 +6,7 @@
 ## **Partie 2**  
 #### Découverte de la BDD, nettoyage, corrections des données et completion des données géographiques (latitude et longitude) correspondant aux adresses postales avec création des colonnes  
     - Langage utilisé : MySQl, Python
-    - Fichier : Collecte_coord_geo_et completion_base_SQL.ipynb
+    - Fichier : Code_file_and_completion_database.ipynb
     - API : Nominatim (https://nominatim.org/release-docs/develop/api/Search/)
     - Outils : Dbeaver, VScode
   
@@ -19,7 +19,7 @@
 #### Requête SQL pour afficher les données suivantes : Nom du client, Prénom, Nombre de locations, Adresses postales, latitude et longitude.
 #### Afficher uniquement le client qui a fait le plus de locations dans la base.  
     - Langage : MySQl
-    - Fichier : Requête_SQL_Bernardo.sql
+    - Fichier : SQL_Request_Bernardo.sql
     - Outil : Dbeaver 
 
   
