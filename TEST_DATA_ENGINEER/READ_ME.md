@@ -15,7 +15,7 @@
     - Fichier : dump_dataengineer_update.sql
 
   
-## <span style="color:blue">some **Partie 4** text</span>.  
+## <span style="color:blue">**Partie 4**</span>.  
 #### Requête SQL pour afficher les données suivantes : Nom du client, Prénom, Nombre de locations, Adresses postales, latitude et longitude.
 #### Afficher uniquement le client qui a fait le plus de locations dans la base.  
     - Langage : MySQl
