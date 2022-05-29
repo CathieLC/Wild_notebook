@@ -1,27 +1,27 @@
-## **Partie 1**  
-#### Télécharger le dump sql et l'importer sur un logiciel de base de données (BDD)  
-    - Fichier : DataEngineer2022_base_no_update.sql
-    - Outil de BDD : Dbeaver 
+## **Part 1**  
+#### Download the sql dump and import it on a database software (BDD)  
+    - File : DataEngineer2022_base_no_update.sql
+    - Tool : Dbeaver 
   
-## **Partie 2**  
-#### Découverte de la BDD, nettoyage, corrections des données et completion des données géographiques (latitude et longitude) correspondant aux adresses postales avec création des colonnes  
-    - Langage utilisé : MySQl, Python
-    - Fichier : Code_file_and_completion_database.ipynb
+## **Part 2**  
+#### Discovery of the database, cleaning, data corrections and completion of geographical data (latitude and longitude) corresponding to postal addresses with creation of columns  
+    - Language : MySQl, Python
+    - File : Code_file_and_completion_database.ipynb
     - API : Nominatim (https://nominatim.org/release-docs/develop/api/Search/)
-    - Outils : Dbeaver, VScode
+    - Tools : Dbeaver, VScode
   
-## **Partie 3**  
-#### Dump de la base de données mise à jour  
-    - Fichier : dump_dataengineer_update.sql
+## **Part 3**  
+#### Dump database after updating
+    - File : dump_dataengineer_update.sql
 
   
-## **Partie 4**  
-#### Requête SQL pour afficher les données suivantes : Nom du client, Prénom, Nombre de locations, Adresses postales, latitude et longitude.
-#### Afficher uniquement le client qui a fait le plus de locations dans la base.  
-    - Langage : MySQl
-    - Fichier : SQL_Request_Bernardo.sql
-    - Outil : Dbeaver 
+## **Part 4**  
+#### SQL query to display the following data: Customer name, First name, Number of rentals, Postal addresses, latitude and longitude.
+#### Display only the customer who has made the most rentals in the database.  
+    - Language : MySQl
+    - File : SQL_query_Bernardo.sql
+    - Tool : Dbeaver 
 
   
     
-#### Le sujet du test est référencé sous *"Subject_of_the_technical_test.txt"*
+#### The subject of technical test is named *"Subject_of_the_technical_test.txt"*
